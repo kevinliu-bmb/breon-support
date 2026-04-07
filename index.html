@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breon - Support</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: #000;
+            color: #fff;
+            font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+            line-height: 1.7;
+            padding: 40px 24px;
+            max-width: 640px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 28px;
+            font-weight: 300;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            opacity: 0.85;
+            margin-bottom: 8px;
+        }
+        h2 {
+            font-size: 18px;
+            font-weight: 300;
+            opacity: 0.7;
+            margin-top: 40px;
+            margin-bottom: 12px;
+            letter-spacing: 1px;
+        }
+        p, li {
+            font-size: 15px;
+            font-weight: 300;
+            opacity: 0.5;
+            margin-bottom: 12px;
+        }
+        .subtitle {
+            font-size: 14px;
+            font-weight: 200;
+            opacity: 0.35;
+            margin-bottom: 48px;
+        }
+        ul { list-style: none; padding: 0; }
+        li { padding-left: 16px; position: relative; margin-bottom: 16px; }
+        li::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 10px;
+            width: 4px;
+            height: 4px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.25);
+        }
+        .divider {
+            height: 1px;
+            background: rgba(255,255,255,0.06);
+            margin: 32px 0;
+        }
+        a {
+            color: rgba(255,255,255,0.6);
+            text-decoration: none;
+            border-bottom: 1px solid rgba(255,255,255,0.15);
+        }
+        a:hover { opacity: 0.8; }
+        .faq-q {
+            font-size: 15px;
+            font-weight: 400;
+            opacity: 0.6;
+            margin-bottom: 6px;
+        }
+        .faq-a {
+            font-size: 14px;
+            font-weight: 300;
+            opacity: 0.4;
+            margin-bottom: 24px;
+        }
+        .footer {
+            margin-top: 60px;
+            padding-top: 24px;
+            border-top: 1px solid rgba(255,255,255,0.06);
+        }
+        .footer p { font-size: 13px; opacity: 0.25; }
+        .footer a { font-size: 13px; }
+        .nav {
+            margin-top: 48px;
+            display: flex;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
+        .nav a {
+            font-size: 13px;
+            opacity: 0.35;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Breon</h1>
+    <p class="subtitle">Support</p>
+
+    <h2>About the App</h2>
+    <p>Breon is a minimal sleep app that guides your breathing using haptic feedback. No screens to watch, no sounds to listen to. Just hold your phone and breathe.</p>
+
+    <h2>How It Works</h2>
+    <ul>
+        <li><strong>Guided Phase</strong> &mdash; The app automatically guides your breathing with gentle haptic patterns. Inhale builds. Exhale fades. Just follow along.</li>
+        <li><strong>Interactive Phase</strong> &mdash; Take control. Hold the left side of the screen to inhale, the right side to exhale. Haptics respond to your touch in real time.</li>
+        <li><strong>Guided Mode</strong> &mdash; Enable in settings for fully hands-free haptic breathing. Close your eyes and let the vibrations guide you to sleep.</li>
+        <li><strong>Breath Counter</strong> &mdash; Counts your breathing cycles like counting sheep. Enable or disable in settings.</li>
+    </ul>
+
+    <div class="divider"></div>
+
+    <h2>Frequently Asked Questions</h2>
+
+    <p class="faq-q">I don't feel any haptics.</p>
+    <p class="faq-a">Haptics only work on a physical iPhone (not in the simulator). Make sure your device supports haptics and check Settings &rarr; Sounds &amp; Haptics &rarr; ensure "System Haptics" is enabled.</p>
+
+    <p class="faq-q">Which devices are supported?</p>
+    <p class="faq-a">Breon requires an iPhone with a haptic engine (iPhone 8 or later) running iOS 16.6 or newer. The app works without haptics on unsupported devices, but the core experience relies on them.</p>
+
+    <p class="faq-q">How do I adjust the screen brightness?</p>
+    <p class="faq-a">Tap the settings icon in the top-right corner during the breathing phase. Use the Interface Brightness slider to adjust how visible the UI elements are.</p>
+
+    <p class="faq-q">How do I reset the breath counter?</p>
+    <p class="faq-a">Open settings and tap "Reset Counter" below the Breath Counter toggle.</p>
+
+    <p class="faq-q">Is my data collected?</p>
+    <p class="faq-a">No. Breon does not collect, store, or transmit any personal data. All settings are stored locally on your device. See our <a href="privacy.html">Privacy Policy</a> for details.</p>
+
+    <p class="faq-q">How do I contact support?</p>
+    <p class="faq-a">Email us at <a href="mailto:kevinliu.bmb@gmail.com">kevinliu.bmb@gmail.com</a> and we'll get back to you as soon as possible.</p>
+
+    <div class="divider"></div>
+
+    <h2>Requirements</h2>
+    <ul>
+        <li>iPhone 8 or later (haptic engine required for full experience)</li>
+        <li>iOS 16.6 or newer</li>
+        <li>No internet connection required</li>
+    </ul>
+
+    <div class="nav">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Use</a>
+        <a href="about.html">About</a>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2026 Kevin Liu. All rights reserved.</p>
+    </div>
+</body>
+</html>
